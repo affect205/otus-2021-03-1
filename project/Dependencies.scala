@@ -35,6 +35,8 @@ object Dependencies {
     "org.http4s"                 %% "http4s-circe"         % V.http4sVersion,
     "io.circe"                   %% "circe-literal"        % V.circe,
 
+    "org.slf4j"                   % "slf4j-simple"         % "1.7.36",
+
     "org.typelevel"              %% "cats-effect-testing-specs2" % V.catsEffectTest % Test,
     "org.specs2"                 %% "specs2-core"                % V.specs2         % Test,
     "org.scalacheck"             %% "scalacheck"                 % V.scalaCheck     % Test
